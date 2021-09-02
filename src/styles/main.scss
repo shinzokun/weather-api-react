@@ -1,0 +1,25 @@
+// Variables
+$merriweather: "Merriweather";
+
+// Main Styling
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  font-family: $merriweather;
+
+  div.App {
+    // div.App
+    div.Background-image {
+      background: url("/assets/main.jpg"), linear-gradient(rgba(0, 0, 0, 0.5));
+      height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      //   filter: brightness(50%);
+    }
+  }
+}
+h1 {
+  font-weight: bold;
+}

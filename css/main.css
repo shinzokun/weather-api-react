@@ -1,0 +1,21 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  font-family: "Merriweather";
+}
+
+* div.App div.Background-image {
+  background: url("/assets/main.jpg"), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)));
+  background: url("/assets/main.jpg"), linear-gradient(rgba(0, 0, 0, 0.5));
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
